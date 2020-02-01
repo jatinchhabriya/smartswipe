@@ -35,7 +35,7 @@ def get_hours(st, et):
                 new_et = et
 	    elif e_lim < et:
                 new_et = e_lim
-            h = new_et-new_st
+            h = new_et - st
         # When the days are different
         else:
 	    # Check for weekday hours, either employee is early or late.
